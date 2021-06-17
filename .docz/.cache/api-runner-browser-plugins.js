@@ -1,0 +1,10 @@
+module.exports = [{
+      plugin: require('../../node_modules/gatsby-plugin-mdx/gatsby-browser.js'),
+      options: {"plugins":[],"extensions":[".md",".mdx"],"remarkPlugins":[[null,{"type":"yaml","marker":"-"}],null],"rehypePlugins":[null,null],"gatsbyRemarkPlugins":[],"defaultLayouts":{"default":"C:\\Docz2\\node_modules\\gatsby-theme-docz\\src\\base\\Layout.js"},"lessBabel":false,"mediaTypes":["text/markdown","text/x-markdown"],"root":"C:\\Docz2\\.docz"},
+    },{
+      plugin: require('../../node_modules/gatsby-plugin-react-helmet-async/gatsby-browser.js'),
+      options: {"plugins":[]},
+    },{
+      plugin: require('../../node_modules/gatsby-theme-docz/gatsby-browser.js'),
+      options: {"plugins":[],"themeConfig":{},"src":"./","gatsbyRoot":null,"themesDir":"src","mdxExtensions":[".md",".mdx"],"docgenConfig":{},"menu":[],"mdPlugins":[],"hastPlugins":[],"ignore":[],"typescript":false,"ts":false,"propsParser":true,"props-parser":true,"debug":false,"native":false,"openBrowser":null,"o":null,"open":null,"open-browser":null,"root":"C:\\Docz2\\.docz","base":"/","source":"./","gatsby-root":null,"files":"**/*.{md,markdown,mdx}","public":"/public","dest":".docz/dist","d":".docz/dist","editBranch":"master","eb":"master","edit-branch":"master","config":"","title":"Docz Example Basic","description":"My awesome app using docz","host":"localhost","port":3000,"p":3000,"separator":"-","paths":{"root":"C:\\Docz2","templates":"C:\\Docz2\\node_modules\\docz-core\\dist\\templates","docz":"C:\\Docz2\\.docz","cache":"C:\\Docz2\\.docz\\.cache","app":"C:\\Docz2\\.docz\\app","appPackageJson":"C:\\Docz2\\package.json","appTsConfig":"C:\\Docz2\\tsconfig.json","gatsbyConfig":"C:\\Docz2\\gatsby-config.js","gatsbyBrowser":"C:\\Docz2\\gatsby-browser.js","gatsbyNode":"C:\\Docz2\\gatsby-node.js","gatsbySSR":"C:\\Docz2\\gatsby-ssr.js","importsJs":"C:\\Docz2\\.docz\\app\\imports.js","rootJs":"C:\\Docz2\\.docz\\app\\root.jsx","indexJs":"C:\\Docz2\\.docz\\app\\index.jsx","indexHtml":"C:\\Docz2\\.docz\\app\\index.html","db":"C:\\Docz2\\.docz\\app\\db.json"}},
+    }]
